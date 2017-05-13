@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.MainActivity"
+    android:weightSum="1"
+    android:id="@+id/awal"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/main"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CupBakery!!"
+        android:textColor="@color/ya"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="43dp"
+        android:text="Order Now !!"
+        android:background="@color/ya"
+        android:textColor="@color/yu"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/buy"
+        android:onClick="onClickBuy"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="43dp"
+        android:text="Menu"
+        android:background="@color/ya"
+        android:textColor="@color/yu"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/katalog"
+        android:onClick="onClickKatalog"
+        />
+ </RelativeLayout>
